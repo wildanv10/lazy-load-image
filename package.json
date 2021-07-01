@@ -1,0 +1,28 @@
+{
+  "name": "lazy-load-image",
+  "version": "1.0.0",
+  "description": "Load an image sequently to improve laod time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "lazy",
+    "load",
+    "image"
+  ],
+  "author": "wildanv10",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "jquery": "^3.6.0",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2"
+  }
+}

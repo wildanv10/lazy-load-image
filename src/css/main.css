@@ -1,0 +1,43 @@
+.container {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+.lazy-load-img {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  outline: none;
+  margin-bottom: 2rem;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.lazy-load-img img.preview {
+  filter: blur(2vw);
+}
+
+.lazy-load-img img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  border: 0 none;
+  transition: all ease 0.8s;
+}
